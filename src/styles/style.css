@@ -1,1 +1,48 @@
 /** CSS STYLE **/
+:root {
+  --white: #fff;
+  --white-opacity: #d7ccc0;
+  --light: #f5f4f0;
+  --primary: #fe8a02;
+  --primary-dark: #42413c;
+  --dark: #2a2626;
+  --dark-opacity: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+  --main-font: 'Open Sans';
+  --title-font: 'Neucha';
+}
+
+body {
+  color: var(--dark);
+  font-size: 16px;
+  font-family: var(--main-font), 'Arial', sans-serif;
+  line-height: 1.6em;
+}
+
+.title {
+  font-family: var(--title-font), 'Arial', sans-serif;
+  line-height: 1.2em;
+}
+
+.title-h1 {
+  font-size: 72px;
+}
+
+.title-h2 {
+  font-size: 60px;
+}
+
+.title-h3 {
+  font-size: 34px;
+}
+
+.title-h4 {
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
