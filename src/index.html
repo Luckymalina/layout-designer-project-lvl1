@@ -10,16 +10,23 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <h1 class="title title-h1"><span class="title-orange">Когнитивные искажения</span> в программировании</h1>
-        <div class="section-cols">
-            <div class="section-col section-col-left">
-                <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
+    <header class="header">
+        <div class="container">
+            <div class="header-heading">
+                <h1 class="title title-h1"><span class="title-orange">Когнитивные<br> искажения</span><br> в программировании</h1>
+                <figure class="header-image">
+                    <img src="images/tota_1.png" alt="Человечек Тота за ноутбуком">
+                </figure>
             </div>
-            <div class="section-col section-col-right">
-                <p>Вместе они формируют что-то вроде замкнутого цикла,  и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
-                <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-                <a href="" class="button button-orange">Подробнее</a>
+            <div class="section-row">
+                <div class="section-col section-col-left">
+                    <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
+                </div>
+                <div class="section-col section-col-right">
+                    <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
+                    <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
+                    <a href="#cognitive-list" class="link link-orange">Подробнее</a>
+                </div>
             </div>
         </div>
     </header>
@@ -29,7 +36,7 @@
             <p>Что такое когнитивные  искажения. Petrovna Channel</p>
             <video src=""></video>
         </section>
-        <section class="section">
+        <section id="cognitive-list" class="section">
             <h2 class="title title-h2"><span class="title-orange">5 когнитивных искажений </span>о существовании которых стоит помнить</h2>
             <ul>
                 <li>
