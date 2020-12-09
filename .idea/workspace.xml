@@ -24,7 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../__B3/frontend-bootstrap" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="D:\D\_hexlet\layout-designer-project-lvl1\node_modules\stylelint" />
@@ -40,11 +40,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607250680395</updated>
-      <workItem from="1607250681512" duration="4099000" />
+      <workItem from="1607250681512" duration="12243000" />
+      <workItem from="1607358697762" duration="1206000" />
+      <workItem from="1607446814517" duration="713000" />
+      <workItem from="1607449124756" duration="9748000" />
+      <workItem from="1607521547780" duration="1223000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
